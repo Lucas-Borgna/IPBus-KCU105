@@ -1,0 +1,7 @@
+{
+  "topCmp": "projects/example", 
+  "toolset": "vivado", 
+  "name": "kcu105_basex", 
+  "topDep": "top_kcu105_basex.dep", 
+  "topPkg": "ipbus-firmware"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="gig_ethernet_pcs_pma_basex_156_25_synth_1" LaunchPart="xcku040-ffva1156-2-e" LaunchTime="1522085726">
+  <File Type="PA-TCL" Name="gig_ethernet_pcs_pma_basex_156_25.tcl"/>
+  <File Type="REPORTS-TCL" Name="gig_ethernet_pcs_pma_basex_156_25_reports.tcl"/>
+  <File Type="RDS-RDS" Name="gig_ethernet_pcs_pma_basex_156_25.vds"/>
+  <File Type="RDS-DCP" Name="gig_ethernet_pcs_pma_basex_156_25.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/gig_ethernet_pcs_pma_basex_156_25">
+    <File Path="$PSRCDIR/sources_1/ip/gig_ethernet_pcs_pma_basex_156_25/gig_ethernet_pcs_pma_basex_156_25.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../src/ipbus-firmware/components/ipbus_eth/firmware/cgn/gig_ethernet_pcs_pma_basex_156_25.xci"/>
+        <Attr Name="ImportTime" Val="1521647490"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="gig_ethernet_pcs_pma_basex_156_25"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/gig_ethernet_pcs_pma_basex_156_25">
+    <File Path="$PSRCDIR/sources_1/ip/gig_ethernet_pcs_pma_basex_156_25/gig_ethernet_pcs_pma_basex_156_25.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../src/ipbus-firmware/components/ipbus_eth/firmware/cgn/gig_ethernet_pcs_pma_basex_156_25.xci"/>
+        <Attr Name="ImportTime" Val="1521647490"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="gig_ethernet_pcs_pma_basex_156_25"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
